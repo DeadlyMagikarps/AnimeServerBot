@@ -1,8 +1,8 @@
 require("dotenv").config({ path: "keys.env" });
 
 import { Client } from "discord.js-commando";
-import { token as _token } from "./auth.json";
-import { activities_status_list } from "./activities_status.js";
+import { token as _token } from "../auth.json";
+import { activities_status_list } from "./utils/activities_status.js";
 
 // File System Requirements
 import { watch } from "chokidar";
