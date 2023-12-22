@@ -1,0 +1,21 @@
+{
+  "name": "animeserverbot",
+  "version": "2.0.0",
+  "description": "This bot will read new additions to the parent directory and any of it's existing or newly created directory to discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hadi Rumjahn",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^2.1.8",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^16.3.1",
+    "log-timestamp": "^0.2.1",
+    "md5": "^2.2.1",
+    "winston": "^3.1.0"
+  }
+}

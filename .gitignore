@@ -1,0 +1,41 @@
+#Configuration Files
+keys.env
+
+# Node.js
+node_modules/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Build output
+/dist
+/build
+/out
+
+# Environment-specific files
+.env
+
+# User-specific files
+.vscode/
+.idea/
+
+# Logs and temporary files
+/logs
+/temp
+
+# Generated files
+/coverage
+
+# Test results
+/test-results
+
+# IDE-specific files
+.DS_Store
+.suo
+.log
+
+# Configuration files
+.eslintcache
+.prettierrc
+.prettierignore
